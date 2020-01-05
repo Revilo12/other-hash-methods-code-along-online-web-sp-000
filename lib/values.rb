@@ -14,4 +14,5 @@ def get_the_values(groceries)
   #   items.each {|item| list << item}
   # end
   # list or
+  groceries.values.flatten
 end
